@@ -1,0 +1,32 @@
+/*CSS code helps maintain oragnization and legibility*/
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.animal-img {
+    width: 150px;
+}

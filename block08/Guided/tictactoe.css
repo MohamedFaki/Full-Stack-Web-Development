@@ -1,0 +1,40 @@
+/* Center the TicTacToe board on the page */
+.tic-tac-toe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the rows */
+  .row {
+    display: flex;
+  }
+  
+  /* Style the cells */
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Style the X and O symbols */
+  .cell::before {
+    content: attr(data-value);
+  }
+  
+  .cell[data-value="X"]::before {
+    color: red;
+  }
+  
+  .cell[data-value="O"]::before {
+    color: blue;
+  }

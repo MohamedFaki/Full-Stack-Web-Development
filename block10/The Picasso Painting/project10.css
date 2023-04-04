@@ -1,0 +1,108 @@
+body {
+    background-color: #232A40;
+    background-image: linear-gradient(to bottom, #232A40, #052244);
+
+}
+/* Desktop Style */
+body {
+    font-size: 16px;
+    margin: 0, auto;
+}
+/* Ipad style */
+@media only screen and (max-width: 1024px) {
+    body {
+        font-size: 14px;
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+/* mobile style */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+        width: 320px;
+        margin: 0, auto;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    position: relative;
+}
+
+.form { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 3px solid transparent;
+    width: 550px;
+    height: 600px;
+}
+
+.sun {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #FF984F;
+    overflow: hidden;
+    box-shadow: 12px -6px 125px 1px rXgba(0, 0, 0, 0.4);
+}
+
+.moon {
+    display: flex;
+    align-self: baseline;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 40px;
+}
+
+.triangle {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 225px solid transparent;
+    border-top: 0;
+
+}
+
+#triangle-1 {
+    right: 40%;
+    border-bottom: 250px solid black;
+    z-index: 2;
+
+}
+
+#triangle-2 {
+    right: 26%;
+    border-bottom: 240px solid salmon;
+    z-index: 1;
+
+}
+
+#triangle-3 {
+    left: 5%;
+    border-bottom: 300px solid black;
+    z-index: 2;
+
+}
+
+#triangle-4 {
+    left: 35%;
+    border-bottom: 260px solid salmon;
+    z-index: 1;
+
+}

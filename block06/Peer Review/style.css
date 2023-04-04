@@ -1,0 +1,42 @@
+.box-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.column {
+  display: inline-block;
+  width: 200px;
+  margin-left: 0px;
+  border: 2px solid black;
+  padding-right: 20px;
+  height: 100%;
+  background-color: rgb(207, 224, 179);
+}
+.image1 {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+#header-pantry {
+  background-color: rgb(179, 105, 136);
+  width: 453px;
+  border: 2px dotted black;
+}
+#header-freezer {
+  background-color: rgb(79, 190, 190);
+  width: 453px;
+  border: 2px dotted black;
+}
+.header-text {
+  margin: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(170, 50, 134);
+}

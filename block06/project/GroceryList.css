@@ -1,0 +1,33 @@
+body {
+    background-color: #f7f7f7;
+    
+}
+
+.cookie-class {
+    border: 3px solid #2b2d42;
+    padding: 2px;
+    margin: 5px;
+    color: #2b2d42;
+    background-color: #f1f1f1;
+}
+.Main {
+    background-color: #edf2f4;
+    border: 3px solid black;
+    padding: 2px;
+    margin: 5px;
+    width: 50%;
+    color: #422b2b;
+}
+
+.Box {
+    display: inline-block;
+    background-color: #8d99ae;
+    padding: 30px;
+    border: 3px solid #2b2d42;
+    margin: 5px;
+    min-width: 200px;
+    min-height: 200px;
+    vertical-align: top;
+    color: #fff;
+
+}

@@ -1,0 +1,15 @@
+
+#Cat {
+    border: 3px solid black;
+    margin: 5px;
+    /* same as 5px 5px 5px 5px */
+    padding: 2px 3px;
+    border-radius: 10px;
+}
+/* G */
+.Dog-class {
+    border: 3px solid black;
+    /* first 5px sets top and bottom element to 5px second 5px sets right and left element to 5px  */
+    margin: 5px 5px;
+    padding: 2px 3px;
+}

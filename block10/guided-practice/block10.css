@@ -1,0 +1,15 @@
+.my-Paragraph:hover {
+    background-color: orange;
+}
+
+li:nth-child(even) {
+    color: green;
+}
+
+.header-section {
+    height: 100px;
+}    
+
+.page-heading { 
+    height: calc(100% - 15px);
+}
