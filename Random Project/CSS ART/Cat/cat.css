@@ -1,16 +1,155 @@
-
-
-
-
-
-* { 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .canvas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3;
+    width: 10%;
+    height: 100vh;
+
 
 }
 
 .circle {
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE4E0;
+    height: 80vmin;
+    width: 80vmin;
+    border-radius: 50%;
+    clip-path: circle(50%);
 }
+.ears{ 
+    position: absolute;
+    width: 0vmin;
+    height: 0vmin;
+    border-right: 6vmin solid transparent;
+    border-bottom: 10vmin solid #A67C52;
+    border-left: 6vmin solid transparent;
+    top: -1vmin;
+    right: 0vmin;
+    transform: rotate(30deg);
+    box-shadow: 2vmin 2vmin white;
+    
+
+    
+
+}
+
+
+
+
+.catHead { 
+    position: absolute;
+    height: 45vmin;
+    width: 55vmin;
+    border-radius: 4;
+    border-radius: 48%;
+    background-color: #A67C52;
+    background-clip: border-box;
+    z-index: 1;
+}
+
+.catBody { 
+    position: absolute;
+    height: 27vmin;
+    width: 25vmin;
+    rotate: (180deg);
+    border-radius: 30%;
+    bottom: -3vmin;
+
+    background-color: #A67C52;
+}
+
+.catBodyCircle { 
+    position: absolute;
+    height: 25vmin;
+    width: 16vmin;
+    rotate: (180deg);
+    border-radius: 50%;
+    bottom: -7vmin;
+    background-color: #DBBE9E;
+    right: 4vmin ;
+}
+
+.rightEyes {
+    position: absolute;
+    height: 9vmin;
+    width: 9vmin;
+    border: .5vmin solid black;
+    background-color:  #4fa6d4;
+    border-radius: 50%;
+    top: 18vmin;
+    right:11vmin;
+}
+
+.rightEyesInner { 
+    
+    position: absolute;
+    height: 5vmin;
+    width: 5vmin;
+    border: .5vmin solid black;
+    background-color:  #000;
+    border-radius: 50%;
+    top: 1.7vmin;
+    right: 1.5vmin;
+}
+.rightEyesInnerSparkle {
+    position: absolute;
+    height: 1vmin;
+    width: 1vmin;
+    background-color:  whitesmoke;
+    border-radius: 50%;
+    top: 0vmin;
+    right: 3.5vmin;
+}
+
+.rightEyesSparkle { 
+    position: absolute;
+    height: 2vmin;
+    width: 2vmin;
+    background-color:  whitesmoke;
+    border-radius: 50%;
+    top: .2vmin;
+    right: 2.1vmin;
+}
+
+.leftEyes {
+    position: absolute;
+    height: 9vmin;
+    width: 9vmin;
+    border: .5vmin solid black;
+    background-color:  #4fa6d4;
+    border-radius: 50%;
+    top: 18vmin;
+    left: 11vmin;
+}
+
+.nose { 
+    position: absolute;
+    border-right: 2vmin solid transparent;
+    border-bottom: 2vmin solid salmon;
+    border-left: 2vmin solid transparent;
+    height: 0vmin;
+    width: 5vmin;
+    top: 28vmin;
+    right: 25vmin;
+    border-radius: 35%;
+}
+
+    #trapezoid {<br />
+      border-bottom: 100px solid red;<br />
+      border-left: 25px solid transparent;<br />
+      border-right: 25px solid transparent;<br />
+      height: 0;<br />
+      width: 100px;<br />
+    }<br />
+  
