@@ -1,5 +1,4 @@
 const coffeeMenu = require("./coffee");
-
 // Prompt 2:
 
 console.table(coffeeMenu.map(drink => drink.name));
