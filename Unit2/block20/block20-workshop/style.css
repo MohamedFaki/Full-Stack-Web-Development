@@ -1,0 +1,53 @@
+/* 
+#F1F6F9 background
+#394867
+#212A3E
+#9BA4B5 
+*/
+
+* { 
+    padding: 4px;
+    margin: 5px;
+    background-color: #212A3E;
+
+}
+
+body { 
+    margin: 5px;
+
+}
+
+#root { 
+    margin: 5rem;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 5rem;
+    background-color: #9BA4B5;
+    border: 3px solid #151515; 
+    margin: 2rem;
+
+}
+
+ul { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    border: 3px solid #151515;  
+    margin: 2rem;
+    padding: 2rem;
+    list-style-type: none;
+    background-color: #9BA4B5;
+
+}
+
+li {
+    
+    font-size: large;
+    border: 3px solid #151515; 
+    background-color: #394867 ;
+
+
+}

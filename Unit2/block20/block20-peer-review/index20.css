@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Comic Sans MS', Courier, monospace;
+    background-color: #d7e5f4;
+
+
+}
+
+/* live server not working lol */
+ul {
+    list-style-type: circle;
+    display: inline-flex;
+    margin: 0rem 1rem;
+    padding: 0;
+}
+
+h1 {
+    font-size: 6rem;
+    color: rgb(85, 30, 92);
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0 4px 6px;
+    margin-bottom: 8px;
+    color: darkslategray;
+    background-color: rgb(190, 164, 194);
+}
